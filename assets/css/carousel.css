@@ -1,0 +1,3 @@
+.carousel-no-arrow .slick-arrow {
+    display: none !important;
+}
