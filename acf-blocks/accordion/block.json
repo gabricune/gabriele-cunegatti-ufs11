@@ -2,7 +2,7 @@
     "apiVersion": 2,
     "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
 	"name": "acf/accordion",
-	"title": "Fisarmonica",
+	"title": "Accordion",
 	"description": "Un blocco personalizzato che permette di inserire un accordion",
 	"category": "design",
 	"keywords": [
