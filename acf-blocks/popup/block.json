@@ -1,0 +1,32 @@
+{
+    "apiVersion": 2,
+    "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+    "name": "acf/popup",
+    "title": "Popup",
+    "description": "Un blocco popup pubblicitario",
+    "category": "media",
+    "icon": "megaphone",
+    "keywords": ["popup", "advertisement", "modal"],
+
+    "acf": {
+        "renderTemplate": "popup.php"
+    },
+
+
+    "style": [
+        "popup"
+    ],
+    
+
+    "script":[
+        "popup"
+    ],
+
+    "supports": {
+        "inserter": true,
+        "multiple": true,
+        "align": true,
+        "anchor": true,
+        "jsx": true
+    }
+}

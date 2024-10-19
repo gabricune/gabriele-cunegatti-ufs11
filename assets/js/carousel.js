@@ -1,1 +1,1 @@
-$('.js-carousel .acf-innerblocks-container').slick();
+$(' .js-carousel .acf-innerblocks-container').slick();

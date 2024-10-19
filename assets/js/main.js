@@ -1,1 +1,1 @@
-const $ = jQuery.noConflict();
+const $ =jQuery.noConflict();

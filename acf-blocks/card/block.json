@@ -1,26 +1,23 @@
 {
     "apiVersion": 2,
     "$schema":  "https://advancedcustomfields.com/schemas/json/main/block.json",
-    "name": "acf/carousel",
-    "title": "Carosello",
-    "description": "Un blocco personalizzato che permette di inserire carosello, cioè",
+    "name": "acf/card",
+    "title": "Card",
+    "description": "Un blocco card testo, immagine, bottone",
     "category" : "media",
     "keywords": [
-        "carousel",
-        "carosello"
+        "card"
+        
     ],
     "acf": {
-        "renderTemplate": "carousel-template.php",
+        "renderTemplate": "card-template.php",
         "mode": "preview"
     },
     "style" : [
-        "slick",
-        "carousel"
+        "css",
+        "card"
 
-    ],
-    "script" : [
-        "slick",
-        "carousel"
+   
 
     ],
     "supports" : {

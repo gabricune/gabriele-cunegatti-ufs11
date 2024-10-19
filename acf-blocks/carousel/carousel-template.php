@@ -1,20 +1,24 @@
-<?php 
+<?php
 
-    $class_edit = '';
+    $class_edit =' ';
 
-    $arrowsBool = get_field('acf_blocks_carousel_arrows_bool');
+    $arrows_Bool = get_field('acf_blocks_carousel_arrow_bool');
 
-    if($arrowsBool == true) {
-        $class_edit .= ' carousel-no-arrow';
+    if($arrows_Bool == true) {
+        $class_edit .= 'carousel-no-arrow';
     }
 
 ?>
+
+
+
+
+
 <div class="carousel-wrapper">
-
     <div class="carousel js-carousel<?php echo $class_edit; ?>">
-        
-        <InnerBlocks />
 
-    </div>
+    <InnerBlocks />
+
+    </div>    
 
 </div>
