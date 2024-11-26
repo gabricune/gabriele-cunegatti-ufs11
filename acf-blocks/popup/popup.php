@@ -1,8 +1,8 @@
 <?php 
 // Recupera i campi personalizzati
 $title = get_field('acf_blocks_popuptitle');
-$content = get_field('_acf_blocks_popupcontenuto');
-$email = get_field('_acf_blocks_popupemail');
+$content = get_field('acf_blocks_popupcontenuto');
+$email = get_field('acf_blocks_popupemail');
 $button = get_field('acf_blocks_popup_button');
 $linkbutton = get_field('acf_blocks_popup_link_button');
 ?>

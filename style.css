@@ -1,11 +1,21 @@
 /**
- * Theme Name:        Gabriele Cunegatti - UFS11
- * Description:       Tema per la consegna dell' esame di WP per il corso UFS11
- * Version:           1.0.0
- * Author:            Gabriele Cunegatti
- * Text Domain:       ufs11
- */
+* Theme Name:        Gabriele Cunegatti - UFS11
+* Description:       Tema per la consegna dell' esame di WP per il corso UFS11
+* Version:           1.0.0
+* Author:            Gabriele Cunegatti
+* Text Domain:       ufs11
+*/
 
- body{
-    background-color: rgb(255, 255, 255);
- }
+body{
+   background-color: rgb(255, 255, 255);
+}
+
+.wp-block-media-text[style*="border-bottom-right-radius"].has-media-on-the-right, 
+.wp-block-media-text[style*="border-top-left-radius"], 
+.wp-block-media-text[style*="border-radius"] {
+   overflow: hidden;
+}
+
+:where(.wp-site-blocks) > * {
+   margin-block-start: 0;
+}

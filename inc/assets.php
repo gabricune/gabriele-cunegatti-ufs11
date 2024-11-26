@@ -127,8 +127,34 @@
         '1.0.0', 
         'all'
     );
+
+    if (class_exists( 'woocommerce')){
+        wp_enqueue_style(
+            'woo',
+            get_template_directory_uri() . '/assets/css/woo.css',
+            array(), 
+            '1.0.0', 
+            'all'
+        );
+
+        if(is_cart()){
+            wp_enqueue_style(
+                'woo-cart',
+                get_template_directory_uri() . '/assets/css/woo-carts.css',
+                array(), 
+                '1.0.0', 
+                'all'
+            );
+         }
+    }
     
    }
+
+
+
+
+
+
  add_action( 'wp_enqueue_scripts', 'main_assets' );
 
 

@@ -16,7 +16,7 @@
         
         $index = get_row_index();
 
-        $title = get_sub_field('acf_blocks_accordion_rp__title');
+        $title = get_sub_field('acf_blocks_accordion_rp_title');
         $content = get_sub_field('acf_blocks_accordion_rp_content');
         
         $isChecked = '';
